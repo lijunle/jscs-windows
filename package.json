@@ -7,9 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Junle Li <lijunle@gmail.com>",
+  "repository": "https://github.com/lijunle/jscs-windows",
   "license": "MIT",
   "dependencies": {
     "jscs": "^1.5.8",
+    "q": "^1.0.1",
     "temp": "^0.8.1"
   }
 }
