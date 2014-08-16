@@ -2,7 +2,7 @@
   "name": "jscs-windows",
   "version": "0.0.1",
   "description": "JSCS for Windows to avoid truncate bug.",
-  "main": "index.js",
+  "main": "bin/jscs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
