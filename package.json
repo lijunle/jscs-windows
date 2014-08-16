@@ -9,6 +9,7 @@
   "author": "Junle Li <lijunle@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "jscs": "^1.5.8",
     "temp": "^0.8.1"
   }
 }
