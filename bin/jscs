@@ -10,7 +10,9 @@ var cmd = process.argv[0];
 var args = process.argv.slice(1).map(function (opt) {
   return opt === fakeJscs ? realJscs : opt;
 });
-var opts = { cwd: process.cwd() };
+var opts = {
+  cwd: process.cwd()
+};
 
 exec(cmd, args, opts, function (code, stdout, stderr) {
   process.stdout.write(stdout);
